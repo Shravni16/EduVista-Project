@@ -1,0 +1,90 @@
+.update-password-container {
+    background-color: #000814; /* Page background color */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .update-password-form {
+    background-color: #000814;
+    /* Form background color */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .form-heading {
+    color: #f1f2ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-text {
+    color: #999daa;
+    margin-bottom: 20px;
+  }
+  
+  .password-label {
+    color: #f1f2ff;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .password-input {
+    width: 100%;
+    padding: 12px;
+    background-color: #161d29; /* Input field background color */
+    border: none;
+    outline: none;
+    color: #f1f2ff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .password-input::placeholder {
+    color: #999daa; /* Placeholder color */
+  }
+  
+  .eye-up {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffd60a; /* Button background */
+    color: #000000; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submit-button:hover {
+    background-color: #f3c907;
+  }
+  
+  .back-to-login {
+    display: block;
+    margin-top: 20px;
+    color: #f1f2ff;
+    text-decoration: none;
+  }
+  
+  .back-to-login:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,80 @@
+.ec-img{
+    width:100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 24px;
+    
+}
+.ec-card-outer{
+ 
+    border-radius: 18px 0px;
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid 
+    #2C333F;
+
+}
+.ec-card-wrapper{
+
+   
+   cursor: pointer;
+   border-bottom: 1px solid  #2C333F;
+    display: grid;
+    grid-column-gap: 10px;
+    
+    grid-template-columns: repeat(10,1fr);
+   
+}
+
+.ec-card-1{
+    grid-column: span 1;
+    padding: 11px;
+    aspect-ratio: 1/1;
+    /* object-fit: cover;
+    border-radius: 7px; */
+  
+}
+.ec-card-2{
+    grid-column: span 4;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 7px;
+}
+.ec-card-3{
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+}
+.ec-card-4{
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.ec-card-5{
+    grid-column: span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.ec-card-desc{
+    font-size: 12px;
+    color:  #838894;
+}
+
+.ec-e-names{
+    display: flex;
+    /* width: 70px; */
+    margin :0px auto;
+    justify-content: space-evenly;
+    margin: 10px 30px;
+}
+.ec-progress{
+    /* margin-right: 40px; */
+}
+.ec-duration{
+   
+}

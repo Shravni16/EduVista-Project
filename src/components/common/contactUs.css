@@ -1,0 +1,88 @@
+/* Form container */
+.contact-form {
+    background-color: #000814;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Horizontal layout for rows */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Form group styles */
+.form-group {
+    flex: 1;
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #F1F2FF; /* Label color */
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input and textarea styles */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none; /* Removed border */
+    background-color: #161D29;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0px 2px 5px rgba(50, 50, 50, 0.5); /* Slight bottom shadow */
+}
+
+.input-field::placeholder {
+    color: #999DAA; /* Placeholder color */
+}
+
+/* Textarea specific styling */
+textarea.input-field {
+    resize: none;
+}
+
+/* Error text styling */
+.error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Button styling */
+.submit-button {
+    width: 100%;
+    background-color: #FFD60A;
+    color: black; /* Text color for button */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.submit-button:hover:not(:disabled) {
+    background-color: #FFC107;
+}
+
+.contact-heading{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}

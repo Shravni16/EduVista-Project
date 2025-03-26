@@ -1,0 +1,84 @@
+.rs-wrap{
+    width: 75%;
+    margin: 90px auto;
+    margin-bottom: 0px;
+    padding-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+  
+}
+.rs-heading{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.rating-star{
+    display: flex;
+    gap: 1px;
+    color: #E7C009;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rc-wid{
+    background-color: #161D29;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: aliceblue;
+}
+.rc-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rc-img-name-wrap{
+    margin: 10px 0px;
+    display: flex;
+    margin-bottom: 15px;
+    gap: 20px;
+    align-items: center;
+}
+.rc-name-email{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rc-name{
+    color: #F1F2FF;
+    font-size: 14px;
+}
+.rc-email{
+    color: 
+    #424854;
+    font-size: 12px;
+}
+.rc-rating-stars{
+    display: flex;
+    gap: 10px;
+    color: #E7C009;
+    align-items: center;
+    margin: 15px 0px;
+}

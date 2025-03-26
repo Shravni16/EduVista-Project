@@ -1,0 +1,100 @@
+/* CSS for VerifyEmail component */
+
+.verify-email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #000814;
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  .verify-email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: transparent;
+  }
+  
+  .form-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .form-description {
+    font-size: 16px;
+    color: #adb5bd;
+    text-align: center;
+  }
+  
+  .otp-input {
+    width: 50px;
+    height: 50px;
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 8px;
+  }
+  
+  .otp-input:focus {
+    outline: 2px solid #FFD60A;
+  }
+  
+  .otp-separator {
+    margin: 0 5px;
+    color: white;
+  }
+  
+  .verify-button {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #FFD60A;
+    color: #000814;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .verify-button:hover {
+    background-color: #ffc107;
+  }
+  
+  .verify-button:active {
+    background-color: #e0a800;
+  }
+  
+  .form-footer {
+ padding: 0px 40px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+   .back-to-login-v{
+    color:  #adb5bd;
+    /* background-color: #00C9FF; */
+  
+    text-decoration: none;
+  }
+  
+  .back-to-login-v:hover {
+    text-decoration: underline;
+  }
+  
+  .resend-otp {
+    color: #00C9FF;
+    cursor: pointer;
+  }
+  
+  .resend-otp:hover {
+    text-decoration: underline;
+  } 
+  

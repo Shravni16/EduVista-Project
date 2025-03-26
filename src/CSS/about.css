@@ -1,0 +1,214 @@
+ .gradient-text{
+    font-family: 'Roboto', sans-serif;
+}
+.section1-bg{
+    background-color: #161D29;
+}
+.gridbox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 100px;
+}
+.even{
+    background-color: #2C333F;
+}
+.odd{
+    background-color: #161D29;
+
+}
+.ele-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    padding: 50px;
+    padding-top:0px ;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    line-height: 25px;
+}
+.ele-heading-1{
+    font-size: 30px;
+    padding-right: 200px;
+    line-height: 34px;
+}
+.ele-para-1{
+    color:#838894;
+    
+}
+.ele-2{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+   gap:30px;
+   height: 270px;
+}
+
+.ele-para-2{
+    color:#AFB2BF;
+    line-height: 25px;
+}
+.ele-head-2{
+    color: #F1F2FF;
+    font-size: 20px;
+
+}
+
+
+
+
+.about-container {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.section1-bg {
+    padding: 40px;
+    text-align: center;
+    padding-bottom: 210px;
+}
+
+.about-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-main-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.about-desc {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.about-image {
+    margin-top: -200px;
+    width: 380px;
+    height: auto;
+}
+
+.about-passion {
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.about-story {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.story-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-founding-img {
+    width: 300px;
+    height: auto;
+}
+
+.about-vision-mission {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.vision, .mission {
+    width: 48%;
+}
+
+.student-count-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #2C333F;
+}
+
+.student-count-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
+
+.student-count-item {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.student-count-number {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.student-count-label {
+    font-size: 16px;
+    color:#838894
+}
+
+.grid-box-section {
+    padding: 40px;
+}
+
+/* .gridbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+} */
+
+.gridbox-large {
+    padding: 40px;
+}
+
+.gridbox-item {
+    padding: 20px;
+}
+
+.contact-section {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+
+.about-gird-of-four{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    padding: 200px;
+    padding-top: 100px;
+    column-gap: 100px;
+    row-gap: 100px;
+}
+.about-grid-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 27px;
+    color:#838894;
+    gap: 10px;
+
+}
+/* .about-small-grid-of-two{
+
+} */

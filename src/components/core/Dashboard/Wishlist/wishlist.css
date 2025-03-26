@@ -1,0 +1,135 @@
+.wishIdx-wraper{
+    width: 70%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+  
+    
+}
+.wishIdx-part-1{
+    grid-column: span 5;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.wishIdx-part-2{
+    grid-column: span 2;
+    height: max-content;
+    background-color: #10151d;
+    margin: 20px;
+    padding: 25px;
+    display:flex ;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.477);
+    border-radius: 6px;
+}
+.wishIdx-part-2-total{
+    color: rgb(63, 63, 63);
+}
+.wishIdx-part-2-amount{
+    color: #caa608;
+    font-size: 30px;
+}
+
+.wishIdx-part-2-buy-now{
+    background-color: #caa608;
+    font-size: 17px;
+    color: #10151d;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+}
+.wishIdx-part-1-items-wrap{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.wishIdx-hr-line{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.477);
+    margin-bottom: -20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wishItem-wrapper{
+   /* display: flex;
+   justify-content: space-between; */
+   display: grid;
+   grid-template-columns: repeat(9,1fr);
+   border-bottom: 1px solid rgb(53, 52, 52);
+   padding: 15px 0px;
+   gap: 10px;
+
+
+}
+.wishItem-img{
+    width: 250px;
+    height: 180px;
+    
+    border-radius: 7px;
+
+}
+.wishItem-1{
+    grid-column: span 3;
+}
+.wishItem-2{
+    grid-column: span 4;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+   margin-top: 3px;
+   gap: 10px;
+}
+.wishItem-3{
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+    gap: 10px;
+}
+.wishItem-amount{
+    color: #d8b620;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.wishItem-remove-btn{
+    border: none;
+    background-color: #1f242c;
+font-size: 16px;
+ display: flex;
+ align-items: center;
+ gap: 7px;
+    padding: 10px;
+    border-radius: 7px;
+    color:#9f1d44;
+}
+.wishItem-rat-star-count{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #4b4d52;
+}
+.wishItem-head{
+    font-size: 20px;
+    font-weight: 600;
+}

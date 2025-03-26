@@ -1,0 +1,54 @@
+.reset-complete-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+  }
+  
+  .reset-complete-form {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-heading {
+   
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .form-text {
+    color: white;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffd60a; /* Button background */
+    color: #000000; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submit-button:hover {
+    background-color: #f3c907;
+  }
+  
+  .back-to-login {
+    display: block;
+    color: #000814;
+    text-decoration: none;
+  }
+  
+  .back-to-login:hover {
+    text-decoration: underline;
+  }
+  

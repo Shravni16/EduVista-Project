@@ -1,0 +1,129 @@
+.id-wrap{
+    width: 75%;
+    margin: 20px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.id-hi-name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 7px;
+}
+.id-lets-start{
+    font-size: 17px;
+    color: rgba(152, 149, 149, 0.633);
+    margin-bottom: 20px;
+}
+.id-sec-1{
+    background-color: #161D29;
+    border-radius: 7px;
+    padding: 20px;
+     width: 230%; 
+   
+}
+.id-visualize{
+    font-weight: 700;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.id-active-btn{
+    background-color:#a9b6c842 ;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: 
+    #FFD60A;
+    cursor: pointer;
+}
+.id-passive-btn{
+  background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #ffd60a60;
+    cursor: pointer;
+   
+}
+.id-2-btn{
+    margin: 15px;
+    margin-left: 0px;
+}
+.id-pie-wrap{
+    margin: 0px auto;
+    width: 100%;
+    height: 450px;
+}
+.id-sec-wrap{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+
+}
+.id-sec-2{
+    background-color: #161D29;
+    border-radius: 7px;
+    padding: 20px;
+    width: 100%;
+   
+}
+.id-stc-h{
+  margin-bottom: 20px;  
+}
+.id-name-val-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 30px;
+}
+.id-name{
+    color: rgba(152, 149, 149, 0.633);
+    font-size: 16px;
+}
+.id-val{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.id-sec-3{
+    background-color: #161D29;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.id-your-course{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.id-view-all{
+    color: #FFD60A;
+    font-size: 15px;
+    cursor: pointer;
+}
+.id-your-course-and-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 0px;
+}
+.id-course-wrap{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    margin: 0px auto;
+}
+.id-crs-img{
+    width: 100%;
+    border-radius: 7px;
+    height: 200px;
+}
+.id-c-name{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.id-std-prc{
+    color: rgba(152, 149, 149, 0.633);
+    margin-top: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

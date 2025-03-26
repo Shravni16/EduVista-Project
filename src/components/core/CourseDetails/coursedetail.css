@@ -1,0 +1,298 @@
+
+
+.secblock{
+    /* background-color: aqua;
+    /* height: 0px; */
+    /* transform-origin: top;  */
+    transform: scale(0);
+    transition: height 0.5s ease,transform 0.5s ease ;
+    transform-origin: top;
+   /* Set a fixed height or adjust as needed */
+    background-color: #00080f;
+    color: aliceblue;
+    height: 0px;
+  
+    
+/* display: none;
+    transition: transform 0.5s ease-in-out,height 0.5s ease-in-out ; */
+    /* transition: display 0.5s ease-in-out; */
+}
+
+.openSec{
+  
+ height: 50px;
+ display: flex;
+ align-items: center;
+ padding-left: 30px;
+ border-bottom: 1px solid rgba(128, 128, 128, 0.525);
+ border-left: 1px solid rgba(128, 128, 128, 0.525);
+ border-right: 1px solid rgba(128, 128, 128, 0.525);
+
+          /*display: block;
+     /*Adjust to the height you want when open */
+    /* transform: scaleY(1); */
+    /* opacity: 1;
+    max-height: 200px;
+    transition: opacity 0.5s ease, max-height 0.5s ease; */
+    transform: scaleY(1);
+}
+
+.closeSec{
+    padding-left: 30px;
+    display: flex;
+ align-items: center;
+ border-bottom: 1px solid rgba(128, 128, 128, 0.525);
+ border-left: 1px solid rgba(128, 128, 128, 0.525);
+ border-right: 1px solid rgba(128, 128, 128, 0.525);
+  /* height: 0px;
+  display: none;
+    transform: scaleY(0); */
+    /* opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.5s ease, max-height 0.5s ease; */
+      height: 0px;
+      transform: scaleY(0);
+}
+
+.icn{
+    height: 20px;
+    width: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.upArrow{
+    transform: rotateY(180deg);
+
+}
+
+.downArrow{
+    transform: rotateX(180deg);
+}
+
+.sec-name-lec-len{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.courseDetailPage-wrapper{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .courseDetailPage-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.cdp-course-heading{
+    margin-top: 130px;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.cdp-course-desc{
+    color: rgb(149, 149, 149);
+}
+.cdp-rat-star-rev{
+    gap: 15px;
+    color: rgb(190, 190, 15);
+    margin: 12px 0px;
+}
+.cdp-createdat{
+    margin: 12px 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cdp-hr-line{
+    height: 2px;
+    width: 100%;
+    background-color: azure;
+    margin: 20px 0px;
+}
+.cdp-what-you-learn-heading{
+    font-size: 28px;
+    margin-top: 20px ;
+    margin-bottom: 5px;
+}
+.cdp-what-you-learn-para{
+    color:rgb(149, 149, 149);
+} 
+.cdp-course-cont-sec{
+    margin-top: 30px;
+}
+.cdp-what-you-learn-div{
+    border: 1px solid rgba(128, 128, 128, 0.463);
+    padding: 20px;
+    margin: 30px;
+    letter-spacing: 1px;
+}
+.cdp-course-cont-head{
+    font-size: 28px;
+    margin-top: 30px ;
+    margin-bottom: 20px;
+}
+.cdp-course-cont-para-coll-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.cdp-collapse-btn{
+    border: none;
+    background-color: transparent;
+    color: rgb(229, 229, 36);
+}
+.cdp-arrow-secname-div{
+    display: flex;
+    gap: 10px;
+}
+.cdp-section-wrapper{
+    /* padding: 30px; */
+    background-color: #1f242c;
+}
+.cdp-section-wrap-child{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.749);
+    padding: 20px;
+}
+.cdp-subsec-wrap{
+    border-bottom: 2px solid grey;
+    padding: 20px;
+}
+
+.cdp-author-img-name-wrap{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.cdp-author-img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+.cdp-author-img-name{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.cdp-author-head{
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cbc-card-wrap{
+    background-color: #1f242c;
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 7px;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.cbc-thumbnail-image{
+  width: 100%;  
+  border-radius: 7px;
+  
+}
+
+.cbc-course-price{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cbc-buy-now-btn{
+    width: 100%;
+    border: none;
+    background-color: #d7b109;
+    color: black;
+    font-size: 19px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+.cbc-add-to-cart{
+    width: 100%;
+    border: none;
+    background-color: #10151d;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+.cbc-garuntee{
+    margin-top: 30px;
+   width: 100%;
+   text-align: center;
+}
+.cbc-arrow-list{
+    color: #06D6A0;
+    font-size: 15px;
+    margin: 5px;
+   
+    display: flex;
+}
+.cbc-arrow-list-wrap{
+    text-align: justify;
+    padding: 10px;
+    /* padding-left: 0px;
+    padding-right: 30px; */
+    
+}
+.cbc-this-course-para{
+    font-size: 19px;
+  margin-top: 20px;
+}
+
+
+.cbc-share-icon-wrap{
+    width: 100%;
+    color:#E7C009;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.cbc-share-icon-wrap:hover{
+    transform: scale(1.1);
+
+}
+
+.wrap-of-buy-cart{
+    width: 100%;
+}
