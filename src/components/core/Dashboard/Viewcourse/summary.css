@@ -1,0 +1,36 @@
+.summary-container {
+  max-width: 600px;
+  margin-right: auto;
+  padding: 1.5rem;
+  background-color: #161d29;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.summarize-button {
+  padding: 0.75rem 1.2rem;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 8px;
+  color: #111;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transition: background 0.2s;
+}
+
+.summarize-button:hover {
+  background-color: #f1b800;
+}
+
+.summary-text {
+  background-color: #000814;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
