@@ -2,14 +2,14 @@ import { summarizerEndpoints } from "../apis";
 import {apiConnector} from "../apiconnector"
 import { setLoading } from "../../slices/courseSlice";
 import toast from "react-hot-toast";
-const {GET_SUMMARY,GET_TRANSCRIPT} = summarizerEndpoints;
+const {GET_SUMMARY,GET_TRANSCRIPT,GET_INTERVIEW_QUESTIONS} = summarizerEndpoints;
 
-export async function getVideoSummary(videoUrl, token){
+export async function getVideoSummary(videoUrl, token,lang){
     // return async (dispatch) => {
     //     dispatch(setLoading(true));
         try{
             console.log("Inside frrontend summay");
-            const response = await apiConnector("POST",GET_SUMMARY,{videoUrl},{
+            const response = await apiConnector("POST",GET_SUMMARY,{videoUrl,lang},{
                 Authorization: `Bearer ${token}`,
             } );
             if (!response.data.success) {
@@ -53,4 +53,24 @@ export async function getVideoTranscript(videoUrl, token){
             // toast.error("error while calling backend api");
         }
     // }
+}
+
+export async function getInterviewQuestions(token,trans) {
+    try{
+            // console.log("Inside frrontend trans");
+            const response = await apiConnector("POST",GET_INTERVIEW_QUESTIONS,{trans},{
+                Authorization: `Bearer ${token}`,
+            } );
+            if (!response.data.success) {
+                throw new Error(response.data.message);
+              }
+              
+            //   console.log("responseeeeeeeeeeeee", response);
+              return response;
+        }
+        catch(error){
+            // dispatch(setLoading(false));
+            console.log(error);
+            // toast.error("error while calling backend api");
+        }
 }
