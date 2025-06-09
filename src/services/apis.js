@@ -82,3 +82,8 @@ export const settingsEndpoints = {
     GET_COURSE_PROGRESS : BASE_URL + "/course/get-course-progress",
     UPDATE_COURSE_PROGRESS : BASE_URL + "/course/update-course-progress"
   }
+
+  export const summarizerEndpoints={
+    GET_SUMMARY : BASE_URL +"/summary/summarize",
+    GET_TRANSCRIPT:BASE_URL+"/summary/transcribe"
+  }
