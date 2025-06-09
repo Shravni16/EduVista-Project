@@ -10,7 +10,7 @@ import { PiGlobe } from "react-icons/pi";
 import { FaChevronDown } from "react-icons/fa6";
 import "./coursedetail.css"
 import CourseBuyCard from "./CourseBuyCard";
-
+import { useNavigate } from "react-router-dom";
 
 function CourseDetailPage(){
     const {courseId}=useParams();
@@ -18,7 +18,7 @@ function CourseDetailPage(){
     const {token}=useSelector((state)=>state.auth);
     const [rat,setRat]=useState(0);
     const [isOpenArr,setIsOpenArr]=useState([]);
-
+    const navigate=useNavigate();
    function handleOpen(sectionId){
     setIsOpenArr((prevIsOpenArr) => {
         if (prevIsOpenArr.includes(sectionId)) {
@@ -35,6 +35,9 @@ function CourseDetailPage(){
    }
 
     useEffect(()=>{
+        if(!token){
+            navigate("/not-found")
+        }
         async function courseDetail(){
             try{
                 const res=await getCoursePageDetail(courseId,token);
