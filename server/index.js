@@ -4,6 +4,8 @@ const contactUsRoutes=require("./routes/contactUsRoutes")
 const userRoutes=require("./routes/userRoutes");
 const profileRoutes=require("./routes/profileRoutes");
 const courseRoutes=require("./routes/courseRoutes");
+const summarizerRoutes=require("./routes/summarizerRoutes");
+const chatRoutes = require("./routes/chatbotRoutes");
 // const paymentRoutes=require("./routes/paymentRoutes");
 
 const database =require("./config/database");
@@ -40,6 +42,8 @@ app.use("/api/v1/auth", userRoutes);
 app.use("/api/v1/profile", profileRoutes);
 app.use("/api/v1/course", courseRoutes);
 app.use("/api/v1/reach", contactUsRoutes);
+app.use("/api/v1/summary",summarizerRoutes);
+app.use("/api/v1/chatbot", chatRoutes);
 // app.use("/api/v1/payment", paymentRoutes);
 
 
