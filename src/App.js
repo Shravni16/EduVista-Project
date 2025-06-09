@@ -66,6 +66,7 @@ function App() {
       <Route element={<ViewCourse/>}>
       <Route path="/view-course/:courseId/section/:sectionId/subsection/:subsectionId" element={<VideoDisplay/>} />
       </Route>
+      <Route path="/not-found" element={<ErrorPage/>}/>
       <Route path="*" element={<ErrorPage/>}/>
     </Routes>
     </div>
