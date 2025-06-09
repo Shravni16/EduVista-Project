@@ -16,7 +16,7 @@ export const profileEndpoints={
     GET_USER_DETAILS_API: BASE_URL + "/profile/get-all-user-details",
     GET_USER_ENROLLED_COURSES_API: BASE_URL +"/profile/get-enrolled-courses",
     GET_INSTRUCTOR_DASHBOARD_DATA:BASE_URL+"/course/get-instructor-dashboard-details",
-  
+   
 }
 
 
@@ -84,6 +84,7 @@ export const settingsEndpoints = {
   }
 
   export const summarizerEndpoints={
-    GET_SUMMARY : BASE_URL +"/summary/summarize",
-    GET_TRANSCRIPT:BASE_URL+"/summary/transcribe"
+    GET_SUMMARY : BASE_URL +"/AI/summarize",
+    GET_TRANSCRIPT:BASE_URL+"/AI/transcribe",
+     GET_INTERVIEW_QUESTIONS:BASE_URL+"/chatbot/interviewprep"
   }
